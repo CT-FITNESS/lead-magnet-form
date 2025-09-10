@@ -1,0 +1,45 @@
+<!-- Lead Magnet Split Calculator Form -->
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width: 500px; margin: auto; font-family: Arial, sans-serif; padding: 20px; border: 1px solid #ddd; border-radius: 10px;">
+  <h2 style="text-align: center; color: #c5a45a;">Get Your Personalized Training Split</h2>
+  
+  <label for="name" style="display:block; margin-top: 15px;">Name:</label>
+  <input type="text" id="name" name="name" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+
+  <label for="email" style="display:block; margin-top: 15px;">Email:</label>
+  <input type="email" id="email" name="email" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+
+  <label for="days" style="display:block; margin-top: 15px;">How many days per week can you train?</label>
+  <select id="days" name="days" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+    <option value="">Select</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+
+  <label for="session-length" style="display:block; margin-top: 15px;">Average session length (minutes):</label>
+  <input type="number" id="session-length" name="session_length" min="30" max="120" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+
+  <label for="experience" style="display:block; margin-top: 15px;">Training experience:</label>
+  <select id="experience" name="experience" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+    <option value="">Select</option>
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Advanced">Advanced</option>
+  </select>
+
+  <label for="equipment" style="display:block; margin-top: 15px;">Equipment access:</label>
+  <select id="equipment" name="equipment" required style="width:100%; padding:10px; margin-top:5px; border-radius:5px; border:1px solid #ccc;">
+    <option value="">Select</option>
+    <option value="Full Gym">Full Gym</option>
+    <option value="Limited Equipment">Limited Equipment</option>
+    <option value="Home Only">Home Only</option>
+  </select>
+
+  <button type="submit" style="margin-top: 20px; width: 100%; padding: 12px; background-color: #c5a45a; border: none; border-radius: 5px; color: white; font-weight: bold; cursor:pointer;">
+    Get My Split
+  </button>
+</form>
